@@ -1,0 +1,17 @@
+.section-4{
+    height: 100%;
+    padding: 100px 20px 20px 20px;
+    .f-instagram{
+        perspective: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            box-shadow: 10px 15px 20px black;
+            width: 250px;
+            transform: rotateX(-36deg) rotateY(-25deg) translateZ(0px);
+            transform-origin: center center;
+        }
+    }
+    
+}

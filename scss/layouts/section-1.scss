@@ -1,0 +1,28 @@
+.section-1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background-image: url('../assets/fotos/test.HEIC');
+    //background-position: center;
+    //background-size: 100%;
+    //background-repeat: no-repeat;
+    
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 10px;
+        text-align: center;
+        .contacto{
+            height: 95px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .btn-contacto{
+
+            }
+        }
+    }
+}

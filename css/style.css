@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.header {
+  background-color: white;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu-izquierda button i,
+.header .menu-derecha button i {
+  font-size: 35px;
+}
+.header h1 {
+  margin: 0px !important;
+}
+
+.section-1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 .presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10px;
+  text-align: center;
+}
+.section-1 .presentacion .contacto {
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 {
+  height: 100vh;
+  margin-bottom: 80px;
+  padding: 0px 25px;
+}
+.section-2 .img-propia {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.section-2 .img-propia img {
+  width: 300px;
+}
+
+.section-3 {
+  height: 100%;
+  background-color: #006acf;
+  padding: 100px 20px 20px 20px;
+  color: white;
+}
+.section-3 h2 {
+  color: white;
+}
+.section-3 .v-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+  width: 250px;
+  perspective: 1000px;
+}
+.section-3 .v-whatsapp video {
+  box-shadow: 10px 15px 25px black;
+  width: 100%;
+  height: 100%;
+  /* Aplica la transformación 3D para inclinar hacia atrás */
+  transform: rotateX(36deg) rotateY(25deg) translateZ(90px);
+  transform-origin: center center;
+}
+
+.section-4 {
+  height: 100%;
+  padding: 100px 20px 20px 20px;
+}
+.section-4 .f-instagram {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-4 .f-instagram img {
+  box-shadow: 10px 15px 20px black;
+  width: 250px;
+  transform: rotateX(-36deg) rotateY(-25deg) translateZ(0px);
+  transform-origin: center center;
+}
+
+.section-5 {
+  height: 100vh;
+  background-color: #006acf;
+  padding: 100px 20px 20px 20px;
+  color: white;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
