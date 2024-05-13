@@ -94,10 +94,24 @@
 }
 
 .section-5 {
-  height: 100vh;
+  height: 100%;
   background-color: #006acf;
   padding: 100px 20px 20px 20px;
   color: white;
+}
+.section-5 .f-web {
+  perspective: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section-5 .f-web img {
+  width: 150px !important;
+  box-shadow: 10px 15px 20px black;
+  width: 250px;
+  transform: rotateX(20deg) rotateY(-25deg) translateZ(0px);
+  transform-origin: center center;
 }
 
 .container-fluid {
