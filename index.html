@@ -8,13 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
     
     <title>Asesorias Digitales</title>
 </head>
 <body>
     <div class="container-fluid">
-            <header class="header navbar fixed-top">
+            <header class="header navbar fixed-top"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+            >
                     <div class="menu-izquierda animate__bounceInLeft">
                         <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#menu-izq"><i class="bi bi-list"></i></button>
                         <div class="offcanvas offcanvas-start" id="menu-izq">
@@ -86,29 +93,29 @@
 
                 <section class="section-1">
                     <div class="presentacion">
-                        <h2>Soy Leonel Nardelli</h2>
-                        <p>¿Quieres expandir tu empresa en el mundo digital?. Con experiencia en marketing, diseño web y redes sociales, estoy aquí para impulsar tu negocio en línea.</p>
-                        <p>¿Listo para alcanzar tus objetivos digitales?</p>
-                        <div class="contacto">
-                            <button class="btn-contacto btn btn-success">
+                        <h2 data-aos="flip-up" data-aos-delay="350">Soy Leonel Nardelli</h2>
+                        <p data-aos="flip-down" data-aos-delay="400">¿Quieres expandir tu empresa en el mundo digital?. Con experiencia en marketing, diseño web y redes sociales, estoy aquí para impulsar tu negocio en línea.</p>
+                        <p data-aos="flip-up" data-aos-delay="450">¿Listo para alcanzar tus objetivos digitales?</p>
+                        <div data-aos="fade-down" class="contacto">
+                            <button data-aos="fade-down" data-aos-delay="500" class="btn-contacto btn btn-success">
                                 Ok, cuéntame más
                             </button>
                         </div>
                     </div>
                 </section>
                 <section class="section-2">
-                    <div class="img-propia">
+                    <div data-aos="flip-left" class="img-propia">
                         <img src="assets/fotos/yo.png" alt="">
                     </div>
-                    <div>
-                        <h2>Un poco sobre mi..</h2>
+                    <div data-aos="zoom-in">
+                        <h2 >Un poco sobre mi..</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis laudantium aliquid fugiat explicabo error corporis, nam, rerum eius sapiente reprehenderit porro illum eveniet nisi molestias ut. Expedita, architecto aperiam.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsam non. Illum non doloribus iure voluptates natus corporis, accusantium, quaerat impedit placeat sapiente provident tempora earum velit commodi molestiae esse.</p>
                     </div>
                 </section>
                 <section class="section-3">
-                    <h2 class="text-center">Whatsapp Business</h2>
-                    <div class="v-whatsapp">
+                    <h2 class="text-center" data-aos="zoom-in-down">Whatsapp Business</h2>
+                    <div class="v-whatsapp" data-aos="zoom-in-left">
                         <video loop muted autoplay playsinline>
                                 <source src="assets/videos/whatsapp.mov" type="">
                                     tu navegador no sopoprta el video
@@ -154,10 +161,12 @@
     </div> <!-- fin container fluid-->
  
     <!-- JAVASCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
     <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
